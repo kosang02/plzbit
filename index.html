@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>pls bitcoin</title>
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+  <style>
+    img {
+      margin-top: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="img.png" alt="My Image"></div>
+			<div class="swiper-slide"><img src="myimg.png" alt="My Image"></div>
+			<div class="swiper-slide"><img src="imgmy.png" alt="My Image"></div>
+			<div class="swiper-slide"><img src="yourimg.png" alt="My Image"></div>
+			<div class="swiper-slide"><img src="imgyour.png" alt="My Image"></div>
+      <div class="swiper-slide"><img src="myyourimg.png" alt="My Image"></div>
+
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+</center>
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+	</script>
+
+</body>
+
+</html>
